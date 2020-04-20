@@ -1,6 +1,6 @@
 ham = document.querySelector('.hamburger')
 nav = document.querySelector('.nav')
-logo = document.querySelector('.logo')
+logo = document.querySelector('.logo a')
 navbar = document.querySelector('header')
 ham.addEventListener('click', (e) => {
     nav.classList.toggle('nav-active')
